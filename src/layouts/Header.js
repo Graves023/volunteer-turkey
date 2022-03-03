@@ -2,6 +2,7 @@ import Link from "next/dist/client/link";
 import { useEffect } from "react";
 import { stickyNav } from "../utils";
 import { Home, News, Pages, Project } from "./menus";
+import LanguageSelector from './modules/LanguageSelector';
 
 const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
   useEffect(() => {
@@ -60,6 +61,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                 </li>
               </ul>
             </div>
+            <LanguageSelector />
           </div>
         </div>
       </div>
