@@ -12,16 +12,16 @@ const Footer = ({ footerSolidBg }) => {
             <div className="row justify-content-lg-between justify-content-center align-items-center">
               <div className="col-lg-7 col-md-8 col-sm-10">
                 <span className="cta-tagline">
-                  25 Years Of Experience In Crowdfunding
+                  Ukraine need your help
                 </span>
                 <h3 className="cta-title">
-                  Raise Hand to Promote Best Products
+                  If you have the opportunity to help
                 </h3>
               </div>
               <div className="col-lg-auto col-md-6">
                 <Link href="/contact">
                   <a className="main-btn bordered-btn bordered-white mt-md-30">
-                    Promote Your Products <i className="far fa-arrow-right" />
+                    Сontact us <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
