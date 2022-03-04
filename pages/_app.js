@@ -1,13 +1,22 @@
 import { Fragment, useContext, useEffect, useState } from "react";
-import Preloader from "../src/layouts/Preloader";
+import Preloader from "../src/components/layouts/Preloader";
 import "../styles/globals.css";
 import { IntlProvider } from 'react-intl';
 import AppContext from '../src/context/AppContext';
 import AppLocale from '../src/i18n';
+import { wrapper } from '../src/redux/store';
 
 function MyApp({ Component, pageProps }) {
   const [preloader, setPreloader] = useState(true);
   const { locale } = useContext(AppContext);
+  
+  useEffect(() => {
+    const jssStyles = document.querySelector('#jss-server-side');
+    if (jssStyles) {
+      jssStyles.parentElement.removeChild(jssStyles);
+    }
+  }, []);
+  
   useEffect(() => {
     setTimeout(() => {
       setPreloader(false);
@@ -21,4 +30,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default wrapper.withRedux(MyApp);

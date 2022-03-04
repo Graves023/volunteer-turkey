@@ -3,7 +3,7 @@ import { useState } from "react";
 import Slider from "react-slick";
 import Counter from "../src/components/Counter";
 import VideoPopup from "../src/components/VideoPopup";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 import { imageTextBlockSlider } from "../src/sliderProps";
 
 const Index2 = () => {
@@ -787,7 +787,7 @@ const Index2 = () => {
                     Quis autem vel eum iure reprehenderit quien voluptate velit
                     esse quam nihil molestiae consequatur illum dolorem
                   </p>
-                  <Link href="/events">
+                  <Link href="/centers">
                     <a className="main-btn btn-white">
                       Start a Funden <i className="far fa-arrow-right" />
                     </a>
@@ -804,7 +804,7 @@ const Index2 = () => {
                     Quis autem vel eum iure reprehenderit quien voluptate velit
                     esse quam nihil molestiae consequatur illum dolorem
                   </p>
-                  <Link href="/events">
+                  <Link href="/centers">
                     <a className="main-btn">
                       Start a Funden <i className="far fa-arrow-right" />
                     </a>

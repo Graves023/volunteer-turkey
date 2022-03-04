@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 
 const Index = () => {
   return (
@@ -15,9 +15,9 @@ const Index = () => {
                 <h1 className="title wow fadeInUp" data-wow-delay="0.4s">
                   Coordination Center for Assistance to Ukraine in Turkey
                 </h1>
-                <Link href="/project-1">
+                <Link href="/contact">
                   <a className="main-btn wow fadeInUp" data-wow-delay="0.5s">
-                    View Contacts <i className="far fa-arrow-right" />
+                    Contact Us <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
@@ -70,7 +70,7 @@ const Index = () => {
                     accusantium doloremque laudan totamrem aperiam eaque quae
                     abille
                   </p>
-                  <Link href="/events">
+                  <Link href="/centers">
                     <a className="main-btn">
                       Get help <i className="far fa-arrow-right" />
                     </a>
@@ -86,7 +86,7 @@ const Index = () => {
                     accusantium doloremque laudan totamrem aperiam eaque quae
                     abille
                   </p>
-                  <Link href="/events">
+                  <Link href="/centers">
                     <a className="main-btn">
                       Your Help <i className="far fa-arrow-right" />
                     </a>
@@ -109,7 +109,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="col-auto">
-                <Link href="/project-1">
+                <Link href="/centers">
                   <a className="main-btn mb-30">
                     View All Contacts <i className="far fa-angle-right" />
                   </a>

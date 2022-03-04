@@ -1,6 +1,6 @@
 import Link from "next/dist/client/link";
 import PageBanner from "../src/components/PageBanner";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 
 const ProjectDetails = () => {
   return (
@@ -166,7 +166,7 @@ const ProjectDetails = () => {
                               29 Rewards Left
                             </li>
                           </ul>
-                          <Link href="/events">
+                          <Link href="/centers">
                             <a className="main-btn">
                               Select Rewards{" "}
                               <i className="far fa-arrow-right" />

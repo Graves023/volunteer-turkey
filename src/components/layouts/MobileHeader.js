@@ -81,7 +81,7 @@ const MobileHeader = ({
               </Link>
             </div>
             <div className="navbar-extra d-flex align-items-center">
-              <Link href="/events">
+              <Link href="/centers">
                 <a className="main-btn nav-btn d-none d-sm-inline-block">
                   Donate Now <i className="far fa-arrow-right" />
                 </a>
@@ -135,7 +135,7 @@ const MobileHeader = ({
             </ul>
           </li>
           <li>
-            <Link href="/events">Events</Link>
+            <Link href="/centers">Events</Link>
           </li>
           <li>
             <a href="#">

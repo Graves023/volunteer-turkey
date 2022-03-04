@@ -3,7 +3,7 @@ import { MenuItem, Stack } from '@mui/material';
 import MenuPopover from './MenuPopover';
 import IconButtonAnimate from './IconButtonAnimate';
 import Flag from 'react-world-flags';
-import useLocales from '../../hooks/useLocales';
+import useLocales from '../../../hooks/useLocales';
 
 export default function LanguageSelector() {
 	const { allLang, currentLang, onChangeLang } = useLocales();

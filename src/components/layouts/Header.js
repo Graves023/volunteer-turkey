@@ -1,6 +1,6 @@
 import Link from "next/dist/client/link";
 import { useEffect } from "react";
-import { stickyNav } from "../utils";
+import { stickyNav } from "../../utils";
 import { Home, News, Pages, Project } from "./menus";
 import LanguageSelector from './modules/LanguageSelector';
 
@@ -37,7 +37,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                 {/*</li>*/}
               </ul>
             </div>
-            <div className="col-auto d-none d-md-block">
+            <div className="col-auto d-flex align-items-center">
               <ul className="social-icons">
                 <li>
                   <a href="#">
@@ -60,8 +60,10 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                   </a>
                 </li>
               </ul>
+              <div className={'ml-5'}>
+                <LanguageSelector />
+              </div>
             </div>
-            <LanguageSelector />
           </div>
         </div>
       </div>
@@ -82,31 +84,31 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                     Home
                   </a>
                 </li>
-                <li>
-                  <a href="#">
-                    News
-                    <span className="dd-trigger">
-                      <i className="far fa-angle-down" />
-                    </span>
-                  </a>
-                  <ul className="submenu">{News}</ul>
-                </li>
-                <li>
-                  <a href="#">
-                    About us
-                    <span className="dd-trigger">
-                      <i className="far fa-angle-down" />
-                    </span>
-                  </a>
-                  <ul className="submenu">{Pages}</ul>
-                </li>
+                {/*<li>*/}
+                {/*  <a href="#">*/}
+                {/*    News*/}
+                {/*    <span className="dd-trigger">*/}
+                {/*      <i className="far fa-angle-down" />*/}
+                {/*    </span>*/}
+                {/*  </a>*/}
+                {/*  <ul className="submenu">{News}</ul>*/}
+                {/*</li>*/}
+                {/*<li>*/}
+                {/*  <a href="#">*/}
+                {/*    About us*/}
+                {/*    <span className="dd-trigger">*/}
+                {/*      <i className="far fa-angle-down" />*/}
+                {/*    </span>*/}
+                {/*  </a>*/}
+                {/*  <ul className="submenu">{Pages}</ul>*/}
+                {/*</li>*/}
                 <li>
                   <Link href="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
             <div className="navbar-extra d-flex align-items-center">
-              <Link href="/events">
+              <Link href="/centers">
                 <a className="main-btn nav-btn d-none d-sm-inline-block">
                   Help Now <i className="far fa-arrow-right" />
                 </a>

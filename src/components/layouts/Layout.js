@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { Fragment, useEffect } from "react";
-import { activeNavMenu, animation, aTagClick, dataPoggress } from "../utils";
+import { activeNavMenu, animation, aTagClick, dataPoggress } from "../../utils";
 import Footer from "./Footer";
 import Header from "./Header";
 import MobileHeader from "./MobileHeader";

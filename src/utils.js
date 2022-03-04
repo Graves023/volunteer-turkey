@@ -34,7 +34,7 @@ export const activeNavMenu = (path) => {
   navItem.forEach((nav) => {
     if (nav.pathname === path) {
       if (!nav.href.includes("#")) {
-        if (nav.pathname === "/events" || nav.pathname === "/contact") {
+        if (nav.pathname === "/centers" || nav.pathname === "/contact") {
           nav.parentElement.className = "current";
         } else {
           nav.parentElement.parentElement.parentElement.className = "current";

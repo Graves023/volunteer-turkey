@@ -1,6 +1,6 @@
 import Link from "next/dist/client/link";
 import PageBanner from "../src/components/PageBanner";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 
 const Contact = () => {
   return (
@@ -24,7 +24,7 @@ const Contact = () => {
                   dolore dantiumy totam apeam eaquey quaventore veritatis
                   architecto beatae.
                 </p>
-                <Link href="/events">
+                <Link href="/centers">
                   <a className="main-btn mt-35">
                     Get Free Quote <i className="far fa-arrow-right" />
                   </a>

@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    ADMIN_URL: process.env.ADMIN_URL,
+  },
   reactStrictMode: true,
   i18n: {
     locales: ['en', 'tr', 'ru'],

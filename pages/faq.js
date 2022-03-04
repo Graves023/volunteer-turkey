@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 import { Accordion, Nav, Tab } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 
 const Faq = () => {
   return (

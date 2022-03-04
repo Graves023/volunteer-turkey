@@ -2,7 +2,7 @@ import Link from "next/dist/client/link";
 import { useState } from "react";
 import PageBanner from "../src/components/PageBanner";
 import VideoPopup from "../src/components/VideoPopup";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 
 const CompanyOverview = () => {
   const [video, setVideo] = useState(false);

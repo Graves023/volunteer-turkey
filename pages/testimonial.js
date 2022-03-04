@@ -1,6 +1,6 @@
 import Link from "next/dist/client/link";
 import PageBanner from "../src/components/PageBanner";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 const Testimonial = () => {
   return (
     <Layout>

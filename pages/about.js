@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import Counter from "../src/components/Counter";
 import PageBanner from "../src/components/PageBanner";
 import VideoPopup from "../src/components/VideoPopup";
-import Layout from "../src/layouts/Layout";
+import Layout from "../src/components/layouts/Layout";
 import { teamSlider } from "../src/sliderProps";
 
 const About = () => {
